@@ -1,0 +1,23 @@
+
+
+body {
+	color: white;
+	/*font-family: 'Exo 2', sans-serif;*/
+	font-family: 'Unica One', cursive;
+}
+
+.cover{
+	background: black url(../img/Lebron-James_profile.jpg) no-repeat 50% 50%;
+}
+.cover h1{
+	font-size: 50em;
+	text-transform: uppercase;
+	-webkit-margin-before:0;
+	-webkit-margin-after:0;
+	font-weight: 100;
+}
+
+#si-logo{
+	margin: 0 auto;
+	display: block;
+}
