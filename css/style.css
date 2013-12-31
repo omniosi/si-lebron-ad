@@ -10,14 +10,16 @@ body {
 	font-weight: 200;
 	margin: 0;
 	padding: 0;
-	background: black;
+	/*background: black;*/
+	background: black url(../img/Lebron-James_profile.jpg) no-repeat 50% 750%;
+	/*background-size: cover;*/
 }
 
 .cover{
-	background: black url(../img/Lebron-James_profile.jpg) no-repeat 50% 50%;
-	max-width: 960px;
+/*	background: black url(../img/Lebron-James_profile.jpg) no-repeat 50% 50%;
+*/	max-width: 960px;
 	margin: 0 auto;
-	background-size: contain;
+	/*background-size: cover;*/
 }
 .typeart{
 	font-size: 25em;
