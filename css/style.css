@@ -10,10 +10,14 @@ body {
 	font-weight: 200;
 	margin: 0;
 	padding: 0;
+	background: black;
 }
 
 .cover{
 	background: black url(../img/Lebron-James_profile.jpg) no-repeat 50% 50%;
+	max-width: 960px;
+	margin: 0 auto;
+	background-size: contain;
 }
 .typeart{
 	font-size: 25em;
@@ -21,61 +25,86 @@ body {
 	font-weight: 100;
 	letter-spacing: 0.25em;
 	position: relative;
-	/*top: -0.2em;*/
-	top: -0.125em;
+	top: -0.2em;
 	left: 0.125em;
 	word-wrap: break-word;
-	line-height: 0.9em;
+	line-height: 1.05em;
 	margin: 0 auto;
-	width: 90%;
-	/*width: 80%;*/
+	max-width: 960px;
 	color: rgba(255,255,255,.5);
+	text-align: center;
+}
+.typeart span{
+	letter-spacing: 0.1em;	
+	position: relative;
+	left: -0.075em;
 }
 .argyle{
-	position: absolute;
-	top: 0;
-	left: 60px;
+	 position: absolute; 
+	 top: 105px; 
+	 /* left: 60px; */
+	/*margin: 0 auto;*/
+	/*display: block;*/
+	/*max-width: 960px;*/
 }
 .argyle .diamond{
-	background: rgba(255,255,255,.25);
-	width: 700px;
-	height: 700px;
+	background: rgba(255,160,71,.25);
+	width: 850px;
+	height: 850px;
 		 -moz-transform: rotate(45deg);
 	-webkit-transform: rotate(45deg);
 			 -o-transform: rotate(45deg);
 			-ms-transform: rotate(45deg);
 					transform: rotate(45deg);
 	float: left;
-	top: 145px;
-	/*left: 50%;*/
+	top: 70px;
+	left: 50px;
 	/*margin: 0 auto;*/
 	position: absolute;
 }
 .argyle .diamond.line{
 	background: none;
 	border: 3px solid rgba(255,255,255,.5);
-	left: 150px;
+	/*left: 150px;*/
+}
+.argyle .diamond.first{
+	left: -110px;
 }
 .argyle .diamond.third{
-	left: 300px;
+	left: 210px;
 }
 .main{
 	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
-	margin: 310px auto 0;
+	margin: 330px auto 0;
 	display: block;
 	text-align: center;
 	text-transform: uppercase;
 }
 .main p{
-	margin-top: 140px;
+	margin-top: 150px;
+	letter-spacing: 0.125em;
+	font-size: x-small;
 }
 .main .titletext{
-	border: 1px solid rgba(255,255,255,.5);
-	margin: 150px auto 0;
-	padding: 0.25em;
+	border: 2px solid rgba(255,255,255,.5);
+	margin: 184px auto 0;
+	padding: 0.5em 0.75em;
+	display: inline-block;
+	font-weight: bold;
+}
+.main .titletext .alt{
+	color: rgba(255,160,71,1);
+}
+.main .nexttext{
+	/* display: inline-block; */
+	margin: 185px auto;
+}
+.main .nexttext span{
+	border-bottom: 5px solid white;
+	padding-bottom: 5px;
 }
 #si-logo{
 	margin: 0 auto;
