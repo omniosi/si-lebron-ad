@@ -130,7 +130,8 @@ footer div{
 footer ul.credits{
 	margin: 0.5em auto;
 	padding: 3em 1em 1em;
-	width: 960px;
+	max-width: 960px;
+	height: 70px;
 	font-size: x-small;
 }
 footer ul{
@@ -139,7 +140,8 @@ footer ul{
 footer ul li{
 	list-style: none;
 	display: inline-block;
-	margin-right: 4em;
+	float: left;
+	margin-right: 5%;
 	vertical-align: top;
 }
 footer ul li.sponsor{
