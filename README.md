@@ -2,7 +2,7 @@
 ---
 
 # Sports Illustrated Sportsman of the Year: Lebron James
-===
+***
 
 !['Sports Illustrated - Sportsman of the Year - Lebron James'  subway poster](http://omnio.us/fun/digital-print/si-lebron/img/SI_lebron_source.jpg "'Sports Illustrated - Sportsman of the Year: Lebron James' subway poster")
 
