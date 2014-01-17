@@ -21,8 +21,13 @@ body {
 	font-weight: 200;
 	margin: 0;
 	padding: 0;
-	background: black url(../img/Lebron-James_profile.jpg) no-repeat 50% 100%;
+	/*background: black url(../img/Lebron-James_profile.jpg) no-repeat 50% 100%;*/
+	background-color: black;
+	background-image: url(../img/Lebron-James_profile.jpg);
+	background-repeat: no-repeat;
+	background-position: 50% 100%;
 	/*background-size: cover;*/
+	background-size: 960px auto;
 }
 
 .cover{
@@ -161,4 +166,37 @@ footer ul.social li{
 footer ul.social li i{
 	position: relative;
 	top: -10px;
+}
+
+@media screen and (max-width: 600px){
+	body{
+		background-size: 100% auto;
+	}
+	.main .titletext{
+		margin: 195px 10px 0;
+	}
+	.main .nexttext{
+		margin: 160px auto;
+	}
+	.argyle .diamond.line{
+		left: -260px;
+		top: 550px;
+	}
+	.argyle .diamond.first{
+		left: -265px;
+	}
+	.argyle .diamond.third{
+		left: -265px;
+		top: 1000px;
+	}
+	footer{
+		top: -570px;
+	}
+	footer ul.credits{
+		height: auto;
+	}
+	footer ul li{
+		display: block;
+		float: none;
+	}
 }
