@@ -196,7 +196,21 @@ footer ul.social li i{
 		height: auto;
 	}
 	footer ul li{
-		display: block;
+		display: inline-block;
 		float: none;
+		padding-bottom: 20px;
+		text-align: center;
+		padding-left: 35px;
+	}
+	footer ul.social{
+		padding-left: 45px;
+	}
+	footer ul.social li{
+		padding-left: 0px;
+
+	}
+	footer .sponsor{
+		padding-left: 0px;
+
 	}
 }
