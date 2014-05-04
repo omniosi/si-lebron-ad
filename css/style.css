@@ -71,7 +71,7 @@ body {
 					transform: rotate(45deg);
 	float: left;
 	top: 70px;
-	left: 50px;
+	left: -35px;
 	position: absolute;
 }
 .argyle .diamond.line{
@@ -79,7 +79,7 @@ body {
 	border: 3px solid rgba(255,255,255,.35);
 }
 .argyle .diamond.first{
-	left: -110px;
+	left: -190px;
 }
 .argyle .diamond.third{
 	left: 210px;
@@ -167,7 +167,17 @@ footer ul.social li i{
 	position: relative;
 	top: -10px;
 }
-
+@media screen and (max-width: 768px){
+	.argyle .diamond{
+		left: -35px;
+	}
+	.argyle .diamond.first {
+		left: -190px;
+	}
+	.argyle .diamond.third {
+		left: 115px;
+	}
+}
 @media screen and (max-width: 600px){
 	body{
 		background-size: 100% auto;
