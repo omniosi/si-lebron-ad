@@ -203,7 +203,8 @@ footer ul.social li i{
 		top: -570px;
 	}
 	footer ul.credits{
-		height: auto;
+		/*height: auto;*/
+		height: 200px;
 	}
 	footer ul li{
 		display: inline-block;
