@@ -3,6 +3,13 @@
 	text-transform: uppercase;
 	letter-spacing: 0.125em;
 }
+@-ms-viewport,
+@viewport{
+	/*width: extend-to-zoom;*/
+	width: device-width;
+	/*width: 320px;*/
+	zoom:1.0;
+}
 a{
 	color: white;
 	text-decoration: none;
