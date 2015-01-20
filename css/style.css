@@ -3,13 +3,6 @@
 	text-transform: uppercase;
 	letter-spacing: 0.125em;
 }
-@-ms-viewport,
-@viewport{
-	/*width: extend-to-zoom;*/
-	width: device-width;
-	/*width: 320px;*/
-	zoom:1.0;
-}
 a{
 	color: white;
 	text-decoration: none;
@@ -40,6 +33,7 @@ body {
 .cover{
 	max-width: 960px;
 	margin: 0 auto;
+	overflow: hidden;
 }
 .typeart{
 	font-size: 25em;
@@ -66,6 +60,8 @@ body {
 .argyle{
 	 position: absolute;
 	 top: 105px;
+	 height: 100%;
+	 width: 960px;
 }
 .argyle .diamond{
 	background: rgba(255,160,71,.25);
@@ -78,7 +74,8 @@ body {
 					transform: rotate(45deg);
 	float: left;
 	top: 70px;
-	left: -35px;
+	/*left: -35px;*/
+	left: 50px;
 	position: absolute;
 }
 .argyle .diamond.line{
@@ -86,10 +83,12 @@ body {
 	border: 3px solid rgba(255,255,255,.35);
 }
 .argyle .diamond.first{
-	left: -190px;
+	/*left: -190px;*/
+	left: -102px;
 }
 .argyle .diamond.third{
-	left: 210px;
+	/*left: 210px;*/
+	left: 2104px;
 }
 .main{
 	position: absolute;
